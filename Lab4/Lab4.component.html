@@ -1,0 +1,9 @@
+<div>
+    <hr>
+    <h6 class="marginzero">Lab4</h6>
+        <span *ngFor="let item of items">
+            <span class="number-even" *ngIf="item % 2 === 0">{{ item }}</span>
+            <span class="number-odd" *ngIf="item % 2 !== 0">{{ item }}</span>
+        </span>
+    <hr>
+</div>
